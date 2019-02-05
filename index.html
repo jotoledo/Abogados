@@ -1,0 +1,285 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+<!-- Provide a short description of the page. -->
+<meta name="description" content="This is an example of a meta description. This will often show up in search results.">
+<!-- This meta tag tells Google not to show the sitelinks search box. -->
+<meta name="google" content="nositelinkssearchbox" />	
+<!-- Control the behavior of search engine crawling and indexing. 
+ The robots meta tag applies to all search engines, while the "googlebot" meta tag is specific to Google. -->
+<meta name="robots" content="..., ..." />
+<meta name="http-equiv" content="X-Robots-Tag : noindex, follow" />
+<meta name="googlebot" content="..., ..." />	
+<!-- Used for verifying ownership of a site. -->
+<meta name="verify" content=""/>
+
+<!-- Open Graph Meta Tags -->
+<!-- Set the canonical URL for the page you are sharing. -->
+<meta property="og:url" content="http://www.mySite.com/">
+<!-- The title to accompany the URL. -->
+<meta property="og:title" content="My Site"/>
+<!-- Provides Facebook the name that you would like your website to be recognized by. -->
+<meta property="og:site_name" content="My Website">
+<!-- Provides Facebook the type of website that you would like your website to be categorized by. -->
+<meta property="og:type" content="website">
+<!-- Defines the language, American English is the default. -->
+<meta property="og:locale" content="en-IN">
+<!-- Directs Facebook to use the specified image when the page is shared. -->
+<meta property="og:image" content="image URL">
+<!-- Similar to the meta description tag in HTML. This description is shown below the link title on Facebook. -->
+<meta property="og:description" content="This is site description."/>
+
+<!-- Twitter Card data -->
+<!-- The type of card to be created: summary, photo, or video -->
+<meta name="twitter:card" content="summary" />
+<!-- Title of the Twitter Card -->
+<meta name="twitter:title" content="Title less than 70 characters" />
+<!-- Description of content -->
+<meta name="twitter:description" content="Description less than 200 characters" />
+<!-- URL of image to use in the card. Used with summary, summary_large_image, player cards -->
+<meta name="twitter:image" content="" />
+<title>Documento sin título</title>
+<link rel="stylesheet" href="css/jquery.bxslider.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/styles.css">
+
+<link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat:300,400,500,600,700" rel="stylesheet">
+
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<!--<script src="js/jquery.bxslider.js"></script>-->
+<script src="js/jquery.bxslider.min.js"></script>
+
+    
+
+    
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/plugins/CSSPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/easing/EasePack.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenLite.min.js"></script>-->
+
+
+<script>
+    $(function(){
+        $('.bxslider').bxSlider({
+        mode: 'fade',
+        captions: false,
+        responsive:true,
+        auto:true,
+        pause:6000
+  });
+});
+    
+     
+</script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header_content"> 
+            <div class="header-top">
+                
+                <div class="contact">
+                    <span class="icon-phone"></span>
+                    <span class="number-phone">666-666-666</span>
+                    <span class="icon-email"></span>
+                    <span class="email">info@email.com</span>
+                </div><!-- Fin contact -->
+                
+                <div class="social">
+                    <a class="icon-facebook" href="https://facebook.com"></a>
+                    <a class="icon-twitter" href="https://twitter.com"></a>
+                    <a class="icon-google-plus" href="https://plus.google.com"></a>
+                    <a class="icon-search" href="#"></a>
+                </div><!-- Fin social -->
+                
+            </div><!--Fin header-top-->
+            <hr>
+            <div class="header-bottom">
+                
+                <div class="logo">
+                    <span class="icon-graduation"></span>
+                    <h1>Expertos Legales</h1>
+                </div><!-- Fin logo -->
+                
+                <nav class="menu">
+                    <ul>
+                        <li class="menu__item active1"><a href="#" class="menu__link">Inicio</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Sobre Nosotros</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Servicios</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Contacto</a></li>
+                    </ul>
+                </nav><!-- Fin menu -->
+                
+                <a href="#" class="bottom__item">Pide una cita</a><!-- Fin boton pide una cita -->
+                
+            </div><!--Fin header-bottom-->
+            
+            <div class="header-slider">
+                <ul class="bxslider">
+                    <li>
+                        <div class="bxslider__fondo">
+                        <div class="bxslider__text">
+                            <h2>-Con Nuestros Servicios-</h2>
+                            <h1>Obtendra un gran apoyo legal</h1>
+                            <p>Tenemos años de experiencia en la prestación de asistencia legal en diversas esferas del derecho.</p>
+                            <a href="#" class="bottom__item__slider">Consulta Gratuita</a>
+                        </div>
+                        
+                        <img src="img/slider/img_justice.jpg" alt="Justicia" class="bxslider__img">
+                        </div>    
+                    </li>
+                    
+                    <li>
+                        <div class="bxslider__fondo">
+                        <div class="bxslider__text2">
+                            <h2>-Ofrecemos-</h2>
+                            <h1>Ayuda Legal Asequible y Efectiva</h1>
+                            <p>Nuestro experto equipo de abogados y consultores estará encantado de proporcionarle la asistencia legal necesaria.</p>
+                            <a href="#" class="bottom__item__slider">Consulta Gratuita</a>
+                        </div>
+                        
+                        <img src="img/slider/img_woman1.jpg" alt="Mujer" class="bxslider__img">
+                        </div>  
+                        
+                    </li>
+                    
+                    <li>
+                        <div class="bxslider__fondo">
+                        <div class="bxslider__text3">
+                            <h2>-Con nosotros-</h2>
+                            <h1>Siempre estás un paso por delante</h1>
+                            <p>Las estrategias de nuestros abogados lo ayudarán a resolver problemas legales muy complejos.</p>
+                            <a href="#" class="bottom__item__slider">Consulta Gratuita</a>
+                        </div>
+                        
+                        <img src="img/slider/martillo.jpg" alt="Martillo" class="bxslider__img">
+                        </div> 
+                        
+                        
+                    
+                    </li>
+                </ul><!-- bxslider -->
+            </div><!-- Fin header-slider -->
+        </header><!-- Fin header_content -->
+        <section class="main">
+            <section class="main-service">
+                <div class="service">
+                    <div class="icon-money"></div>
+                    <h2>Derecho Empresarial</h2>
+                    <hr>
+                    <p>En esta área se presenta asesoramiento global en materia mercantil, entre las que se engloba societaria, contractual y la reestructuración de empresas, procesal y la planificación concursal</p>
+                </div>
+                <div class="service">
+                    <div class="icon-book"></div>
+                    <h2>Derecho familiar</h2>
+                    <hr>
+                    <p>El Derecho de Familia está integrado por un conjunto de normas jurídicas que regulan las relaciones personales y patrimoniales de los miembros de una familia.</p>
+                </div>
+                <div class="service">
+                    <div class="icon-car"></div>
+                    <h2>Gestion de multas</h2>
+                    <hr>
+                    <p>Elaboramos la redacción y suscripción de escritos de oposición, pliegos de descargo y recursos en vía administrativa y ejecutiva contra multas de tráfico impuestas en el territorio nacional que puedan llevar aparejadas sanciones económicas o privación del permiso de conducir.</p>
+                </div>
+            </section><!-- Fin service -->
+            
+            <section class="main-about">
+                <div class="main-about__img">
+                    <img src="img/diccionario_juridico.jpg" alt="Diccionario juridico">
+                </div>
+                <div class="main-about__about-us">
+                    <div class="about">
+                        <h1>Sobre nosotros</h1>
+                        <p>Cuando coloca su caso en manos de nuestros abogados y asistentes legales, está colocando su caso en manos de profesionales comprometidos con el mejor resultado posible.</p>
+                        <a href="#" class="bottom__item__slider">Consulta Gratuita</a>
+                    </div>
+                    <div class="about">
+                        <img src="img/Mujeres2.jpg" alt="Mujeres Sonrientes">
+                    </div>
+                </div>
+                
+            </section><!-- Fin about -->
+            
+            <section class="main-about__img">
+                <div class="main-about__nosotros">
+                    <div class="main-about__nosotros-img">
+                        <img src="img/Hombre1.jpg" alt="Hombre1">
+                        
+                        <div class="main-about__nosotros-nombre">
+                            <p>Juan Luis Toledo</p>
+                            <hr>
+                            <p>Abogado, Derecho Empresarial</p>
+                        </div>
+                    </div>
+                    <div class="main-about__nosotros-img">
+                        <img src="img/Mujer1.jpg" alt="Mujer1">
+                        <div class="link-group">
+                            
+                            
+                        </div>
+                        <div class="main-about__nosotros-nombre">
+                            <p>Encarnacion Moreno</p>
+                            <hr>
+                            <p>Abogado, Derecho Familiar</p>
+                        </div>
+                    </div>
+                    <div class="main-about__nosotros-img">
+                        <img src="img/Hombre2.jpg" alt="Hombre2">
+                        <div class="main-about__nosotros-nombre">
+                            <p>Manuel Gonzalez</p>
+                            <hr>
+                            <p>Abogado, Gestion de Multas</p>
+                        </div>
+                    </div>
+                </div>
+            
+            </section><!-- Fin presentacion -->
+            
+        </section><!-- Fin main -->
+        <footer class="footer-top">
+            <div class="footer-top__wraper">
+                <div class="logo">
+                    <span class="icon-graduation"></span>
+                    <h2>Expertos Legales</h2>
+                </div><!-- Fin logo footer -->
+                <p class="footer-top__wraper-text">
+                    Si usted o su empresa enfrentan un desafío legal que requiere un consejo sólido y una representación calificada, contáctenos hoy para concertar una consulta gratuita con un abogado.
+                </p>
+                <a href="#" class="footer-top__wraper-link">Cosulta Gratuita</a><span class="icon-right"></span>
+            </div>
+            <div class="footer-top__wraper">
+                <h2>Links Rapidos</h2>
+                <ul>
+                    <li><span class="icon-right"></span><a href="#" class="footer-top__wraper-link">Inicio</a></li>
+                    <li><span class="icon-right"></span><a href="#" class="footer-top__wraper-link">Sobre Nosotros</a></li>
+                    <li><span class="icon-right"></span><a href="#" class="footer-top__wraper-link">Servicios</a></li>
+                    <li><span class="icon-right"></span><a href="#" class="footer-top__wraper-link">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-top__wraper">
+                <h2>Contactanos</h2>
+                <p><span class="icon-phone"></span><a href="callto:666-666-666" class="footer-top__wraper-link">666-666-666</a></p>
+                <p><span class="icon-email"></span><a href="mailto:info@gmail.com" class="footer-top__wraper-link">info@mailto.com</a></p>
+                
+                <address>
+                    <p>C/Lope de vega, 32</p>
+                    <p>41540 Puebla de Cazalla, Sevilla</p>
+
+                </address>
+            </div>
+                
+        </footer>
+        <footer class="footer-bootom">
+            <div class="copyright"><small>&copy;Desavio.es Diseño y Desarrollo Web</small></div>
+            <div class="social">
+                <span>Siguenos: </span>
+                <a class="icon-facebook" href="https://facebook.com"></a>
+                <a class="icon-twitter" href="https://twitter.com"></a>
+                <a class="icon-google-plus" href="https://plus.google.com"></a>
+            </div><!-- Fin social -->
+        </footer>
+    </div><!-- Fin container-->
+</body>
+</html>
